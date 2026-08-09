@@ -2,3 +2,9 @@ REGISTROS OPERACIONAIS - AURORA SIGER
 Formato: data | categoria | módulo | mensagem
 2026-08-09T18:00:00-03:00 | ALERTA | Reator de Energia | Superaquecimento detectado.
 2026-08-09T18:05:00-03:00 | ALERTA | Comunicações | Latência acima do padrão.
+2026-08-09T19:11:57-03:00 | MANUTENÇÃO | 2 | 3
+2026-08-09T19:13:05-03:00 | 03 | 2 | 2
+2026-08-09T19:14:44-03:00 | ACESSO | 2 | qualquer coisa
+2026-08-09T19:18:55-03:00 | MANUTENÇÃO | 5 | teste manutenção
+2026-08-09T19:30:48-03:00 | MANUTENCAO | Suporte de Vida | Filto de oxigênio inspecionado e operando normalmente
+2026-08-09T19:34:10-03:00 | MANUTENCAO | Suporte de Vida | Modulos de oxigênio funcionando corretamente

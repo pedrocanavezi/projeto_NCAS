@@ -58,7 +58,53 @@
       "mensagem": "Atraso de 420 ms no enlace com o centro de controle."
     }
   ],
-  "interacoes": [],
+  "interacoes": [
+    {
+      "id": "INT-001",
+      "data": "2026-08-09T19:23:18-03:00",
+      "alerta_id": "ALT-001",
+      "tipo_prompt": "zero-shot",
+      "prompt": "Você é o Núcleo Cognitivo da Aurora Siger (NCAS).\nClassifique o alerta operacional abaixo e recomende uma ação segura.\nNão invente dados. Sinalize incertezas e exija revisão humana para decisões críticas.\nResponda exclusivamente em JSON com as chaves: status, resumo, impacto, acao_recomendada e revisao_humana.\n\nDADOS DO ALERTA:\n{\n  \"alerta_id\": \"ALT-001\",\n  \"modulo\": \"Reator de Energia\",\n  \"setor\": \"Essencial\",\n  \"tipo\": \"Superaquecimento\",\n  \"prioridade\": \"critica\",\n  \"mensagem\": \"Temperatura do reator 18% acima do limite seguro.\"\n}",
+      "resposta_simulada": {
+        "alerta_id": "ALT-001",
+        "status": "bloqueado",
+        "resumo": "Superaquecimento no módulo Reator de Energia.",
+        "impacto": "Risco operacional até validação das condições do módulo.",
+        "acao_recomendada": "Interromper a operação e solicitar inspeção da equipe responsável.",
+        "revisao_humana": true
+      }
+    },
+    {
+      "id": "INT-002",
+      "data": "2026-08-09T19:26:10-03:00",
+      "alerta_id": "ALT-001",
+      "tipo_prompt": "zero-shot",
+      "prompt": "Você é o Núcleo Cognitivo da Aurora Siger (NCAS).\nClassifique o alerta operacional abaixo e recomende uma ação segura.\nNão invente dados. Sinalize incertezas e exija revisão humana para decisões críticas.\nResponda exclusivamente em JSON com as chaves: status, resumo, impacto, acao_recomendada e revisao_humana.\n\nDADOS DO ALERTA:\n{\n  \"alerta_id\": \"ALT-001\",\n  \"modulo\": \"Reator de Energia\",\n  \"setor\": \"Essencial\",\n  \"tipo\": \"Superaquecimento\",\n  \"prioridade\": \"critica\",\n  \"mensagem\": \"Temperatura do reator 18% acima do limite seguro.\"\n}",
+      "resposta_simulada": {
+        "alerta_id": "ALT-001",
+        "status": "bloqueado",
+        "resumo": "Superaquecimento no módulo Reator de Energia.",
+        "impacto": "Risco operacional até validação das condições do módulo.",
+        "acao_recomendada": "Interromper a operação e solicitar inspeção da equipe responsável.",
+        "revisao_humana": true
+      }
+    },
+    {
+      "id": "INT-003",
+      "data": "2026-08-09T19:36:18-03:00",
+      "alerta_id": "ALT-001",
+      "tipo_prompt": "zero-shot",
+      "prompt": "Você é o Núcleo Cognitivo da Aurora Siger (NCAS).\nClassifique o alerta operacional abaixo e recomende uma ação segura.\nNão invente dados. Sinalize incertezas e exija revisão humana para decisões críticas.\nResponda exclusivamente em JSON com as chaves: status, resumo, impacto, acao_recomendada e revisao_humana.\n\nDADOS DO ALERTA:\n{\n  \"alerta_id\": \"ALT-001\",\n  \"modulo\": \"Reator de Energia\",\n  \"setor\": \"Essencial\",\n  \"tipo\": \"Superaquecimento\",\n  \"prioridade\": \"critica\",\n  \"mensagem\": \"Temperatura do reator 18% acima do limite seguro.\"\n}",
+      "resposta_simulada": {
+        "alerta_id": "ALT-001",
+        "status": "bloqueado",
+        "resumo": "Superaquecimento no módulo Reator de Energia.",
+        "impacto": "Risco operacional até validação das condições do módulo.",
+        "acao_recomendada": "Interromper a operação e solicitar inspeção da equipe responsável.",
+        "revisao_humana": true
+      }
+    }
+  ],
   "configuracao_assistente": {
     "idioma": "pt-BR",
     "formato_saida": "JSON",
