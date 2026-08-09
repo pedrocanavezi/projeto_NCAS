@@ -1,0 +1,4 @@
+REGISTROS OPERACIONAIS - AURORA SIGER
+Formato: data | categoria | módulo | mensagem
+2026-08-09T18:00:00-03:00 | ALERTA | Reator de Energia | Superaquecimento detectado.
+2026-08-09T18:05:00-03:00 | ALERTA | Comunicações | Latência acima do padrão.

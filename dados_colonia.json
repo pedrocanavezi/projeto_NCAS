@@ -1,0 +1,68 @@
+{
+  "metadados": {
+    "sistema": "Núcleo Cognitivo da Aurora Siger",
+    "sigla": "NCAS",
+    "versao": "1.0",
+    "descricao": "Protótipo para apoio às operações da colônia Aurora Siger."
+  },
+  "modulos": [
+    {
+      "id": "MOD-001",
+      "nome": "Suporte de Vida",
+      "setor": "Essencial",
+      "ativo": true,
+      "seguranca_ok": true,
+      "dados_consistentes": true,
+      "status": "operacional"
+    },
+    {
+      "id": "MOD-002",
+      "nome": "Reator de Energia",
+      "setor": "Essencial",
+      "ativo": true,
+      "seguranca_ok": false,
+      "dados_consistentes": true,
+      "status": "degradado"
+    },
+    {
+      "id": "MOD-003",
+      "nome": "Comunicações",
+      "setor": "Operacional",
+      "ativo": true,
+      "seguranca_ok": true,
+      "dados_consistentes": true,
+      "status": "operacional"
+    }
+  ],
+  "alertas": [
+    {
+      "id": "ALT-001",
+      "modulo_id": "MOD-002",
+      "tipo": "Superaquecimento",
+      "prioridade": "critica",
+      "falha": true,
+      "critico": true,
+      "resolvido": false,
+      "data": "2026-08-09T18:00:00-03:00",
+      "mensagem": "Temperatura do reator 18% acima do limite seguro."
+    },
+    {
+      "id": "ALT-002",
+      "modulo_id": "MOD-003",
+      "tipo": "Latência elevada",
+      "prioridade": "media",
+      "falha": true,
+      "critico": false,
+      "resolvido": false,
+      "data": "2026-08-09T18:05:00-03:00",
+      "mensagem": "Atraso de 420 ms no enlace com o centro de controle."
+    }
+  ],
+  "interacoes": [],
+  "configuracao_assistente": {
+    "idioma": "pt-BR",
+    "formato_saida": "JSON",
+    "exigir_revisao_humana": true,
+    "api_externa": false
+  }
+}
